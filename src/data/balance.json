@@ -1,0 +1,9 @@
+{
+  "totalWeeks": 156,
+  "baseWeeklyTax": 20,
+  "taxPerSystemLevel": 5,
+  "eventChancePerWeek": 0.15,
+  "loseResilienceThreshold": 0,
+  "maxResilience": 100,
+  "policyMitigationPerLevel": 1
+}

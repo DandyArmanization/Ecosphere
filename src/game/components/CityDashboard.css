@@ -1,0 +1,84 @@
+.dashboard {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 24px 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat .label {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.stat .value {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.event-log {
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.systems {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.system-card {
+  flex: 1;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.system-card h3 {
+  margin: 0 0 4px;
+  color: var(--text-h);
+}
+
+.system-card p {
+  margin-bottom: 12px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 8px 14px;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button.primary {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.next-week {
+  font-size: 16px;
+  padding: 10px 24px;
+}

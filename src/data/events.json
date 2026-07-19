@@ -1,0 +1,20 @@
+{
+  "wildfire": {
+    "id": "wildfire",
+    "name": "Wildfire",
+    "description": "A wildfire threatens the city. Strong Water systems limit the damage.",
+    "season": "summer",
+    "baseDamage": 15,
+    "mitigatingSystemId": "water",
+    "mitigationPerLevel": 2
+  },
+  "coldSnap": {
+    "id": "coldSnap",
+    "name": "Cold Snap",
+    "description": "A severe cold snap strains the power grid. Strong Energy systems limit the damage.",
+    "season": "winter",
+    "baseDamage": 15,
+    "mitigatingSystemId": "energy",
+    "mitigationPerLevel": 2
+  }
+}

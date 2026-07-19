@@ -1,0 +1,29 @@
+{
+  "energy": {
+    "id": "energy",
+    "name": "Energy",
+    "description": "Power generation and grid reliability. Reduces damage from Cold Snaps.",
+    "startingLevel": 1,
+    "maxLevel": 5,
+    "upgradeCosts": [100, 200, 350, 550],
+    "resiliencePerLevel": 5
+  },
+  "water": {
+    "id": "water",
+    "name": "Water",
+    "description": "Water supply and drought/fire readiness. Reduces damage from Wildfires.",
+    "startingLevel": 1,
+    "maxLevel": 5,
+    "upgradeCosts": [100, 200, 350, 550],
+    "resiliencePerLevel": 5
+  },
+  "policy": {
+    "id": "policy",
+    "name": "Policy",
+    "description": "City planning and emergency preparedness. Slightly reduces damage from all events.",
+    "startingLevel": 1,
+    "maxLevel": 5,
+    "upgradeCosts": [150, 250, 400, 600],
+    "resiliencePerLevel": 3
+  }
+}

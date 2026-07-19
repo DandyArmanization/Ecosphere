@@ -1,0 +1,10 @@
+{
+  "boreal": {
+    "id": "boreal",
+    "name": "Boreal",
+    "description": "A northern forested region prone to summer wildfires and severe winter cold snaps.",
+    "startingMoney": 500,
+    "startingResilience": 50,
+    "possibleEventIds": ["wildfire", "coldSnap"]
+  }
+}
